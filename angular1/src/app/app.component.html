@@ -1,0 +1,10 @@
+<app-child1></app-child1>
+<div style="text-align: center;">
+<img [src]="url" alt=""><br>
+<h2 >{{ans}}</h2>
+<h2>price: $ {{price}}</h2>
+</div>
+<div style="text-align: center;">
+  <button (click)="change($event)">click here</button>&nbsp;
+  <button class="btn btn-danger" (click)="getProduct()">order now</button>
+</div>
